@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iHeard — Blog de Análises Musicais</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ==== HEADER: Informações iniciais e menu mobile ==== -->
+    <header>
+        <nav>
+            <div class="logo">iHeard<span></span></div>
+            <ul class="nav-links">
+                <li><a href="#resenhas" class="active">Resenhas</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+            <div class="nav-year-btns">
+                <button class="year-btn active" data-year="todos">Todos</button>
+                <button class="year-btn" data-year="2024">2024</button>
+                <button class="year-btn" data-year="2025">2025</button>
+                <button class="year-btn" data-year="2026">2026</button>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#resenhas">Resenhas</a>
+            <a href="#sobre">Sobre</a>
+            <div class="mobile-year-btns">
+                <button class="year-btn" data-year="todos">Todos</button>
+                <button class="year-btn" data-year="2024">2024</button>
+                <button class="year-btn" data-year="2025">2025</button>
+                <button class="year-btn" data-year="2026">2026</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==== HERO: Destaque para o título e objetivo do blog ==== -->
+    <section class="hero">
+        <p class="hero-label">✦ análises aprofundadas</p>
+        <h1>O que eu <em>ouvi</em></h1>
+        <p>Resenhas honestas e apaixonadas sobre álbuns que marcaram.</p>
+        <div class="hero-actions">
+            <a href="#resenhas" class="btn-primary">Ver Resenhas</a>
+            <a href="#sobre" class="btn-ghost">Sobre o blog</a>
+        </div>
+    </section>
+
+    <!-- ==== LAYOUT PRINCIPAL: GRID com as resenhas e blocos informativos ==== -->
+    <main>
+      <div class="layout-grid">
+        <section id="resenhas">
+            <div class="section-heading">
+                <h2>Resenhas</h2>
+                <span class="count" id="count-label">0 álbuns</span>
+            </div>
+
+            <div class="album-grid" id="grid-resenhas"></div>
+
+            <div class="empty-state hidden" id="empty-state">
+                <span>&#9834;</span>
+                <p>Nenhuma resenha para este ano ainda.</p>
+            </div>
+        </section>
+
+        <aside>
+            <div class="widget">
+                <h3>Por ano</h3>
+                <div class="timeline" id="timeline"></div>
+            </div>
+
+            <div class="widget" id="sobre">
+                <h3>Sobre</h3>
+                <p class="about-text">
+                    <strong>iHeard</strong> é um espaço pessoal para explorar álbuns com atenção e carinho.
+                    Cada resenha é uma tentativa de colocar em palavras o que a música me faz sentir.
+                    Focado em lançamentos de <strong>2024</strong>, <strong>2025</strong> e <strong>2026</strong>.
+                </p>
+            </div>
+
+            <div class="widget">
+                <h3>Créditos</h3>
+                <p class="about-text">
+                    As capas, nomes e demais elementos dos álbuns apresentados neste site pertencem aos seus respectivos artistas, gravadoras e detentores de direitos. 
+                    iHeard é um projeto acadêmico sem fins comerciais ou lucrativos, desenvolvido exclusivamente para fins de estudo. 
+                    Nenhum conteúdo aqui publicado tem intenção de infringir direitos autorais.
+                </p>
+            </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+        <p>iHeard &copy; 2025 &nbsp;·&nbsp; feito com <strong>&#9829;</strong> e muita música</p>
+    </footer>
+
+    <!-- ==== MODAL: Análise completa, informações dos álbuns e faixas favoritas ==== -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <div class="modal-cover" id="m-cover"></div>
+                <div class="modal-meta">
+                    <p class="m-artist" id="m-artist"></p>
+                    <p class="m-title" id="m-title"></p>
+                    <p class="m-year" id="m-year"></p>
+                    <div class="m-rating" id="m-rating"></div>
+                </div>
+            </div>
+            <div class="modal-body">
+                <h4>Análise</h4>
+                <p id="m-analise"></p>
+                <div id="m-faixas-wrap">
+                    <h4>Faixas favoritas</h4>
+                    <div class="fav-tracks" id="m-faixas"></div>
+                </div>
+            </div>
+            <button class="modal-close" id="btn-fechar">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
