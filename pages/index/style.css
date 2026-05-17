@@ -12,6 +12,16 @@
   --border: rgba(123, 63, 228, 0.2);
 }
 
+/* === TEMA CLARO === */
+body.light {
+  --bg: #f5f3ff;
+  --bg-card: #ffffff;
+  --bg-surface: #ede9ff;
+  --text: #1a0a2e;
+  --text-muted: #6b5c8a;
+  --border: rgba(123, 63, 228, 0.2);
+}
+
 /* === BASE === */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -43,6 +53,7 @@ header {
   background-color: rgba(13, 11, 20, 0.95);
   padding: 0 2rem;
   border-bottom: 1px solid var(--border);
+  color: #fff;
 }
 
 nav {
@@ -59,7 +70,7 @@ nav {
   font-family: "Playfair Display", serif;
   font-size: 1.4rem;
   font-weight: 900;
-  color: var(--text);
+  color: #fff;
 }
 
 .logo span {
@@ -84,14 +95,14 @@ nav {
   padding: 0.4rem 1rem;
   font-size: 0.88rem;
   font-weight: 500;
-  color: var(--text-muted);
+  color: #8a7fa8;
   border-radius: 8px;
   transition: color 0.2s;
 }
 
 .nav-links a:hover,
 .nav-links a.active {
-  color: var(--text);
+  color: #f0edf8;
 }
 
 .nav-year-btns {
@@ -280,7 +291,7 @@ main {
 .section-heading h2 {
   font-family: "Playfair Display", serif;
   font-size: 1.4rem;
-  color: var(--text);
+  color: #7b3fe4;
 }
 
 .section-heading .count {
@@ -682,6 +693,55 @@ footer strong {
   background-color: var(--purple);
   color: #fff;
   border-color: var(--purple);
+}
+
+/* === BOTÃO DE TEMA === */
+.theme-btn {
+  background-color: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.35rem 0.7rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.theme-btn:hover {
+  border-color: var(--purple);
+}
+
+/* === SORT BAR === */
+.sort-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.sort-bar select {
+  background-color: var(--bg-card);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.82rem;
+  font-family: "DM Sans", sans-serif;
+  cursor: pointer;
+}
+
+/* === BADGE DE DESTAQUE === */
+.badge-destaque {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: var(--purple);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
 }
 
 /* === RESPONSIVO === */

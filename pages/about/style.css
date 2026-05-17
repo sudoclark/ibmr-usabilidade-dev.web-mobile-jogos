@@ -1,0 +1,150 @@
+/* === ABOUT PAGE === */
+
+.about-main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+
+/* === PERFIL === */
+.about-profile {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.about-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--bg-card);
+  border: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  flex-shrink: 0;
+  color: var(--purple);
+}
+
+.about-avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-intro h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  color: var(--text);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.about-intro h2 em {
+  color: var(--purple);
+  font-style: italic;
+}
+
+.about-intro p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-bottom: 0.75rem;
+}
+
+/* === DIVISOR === */
+.about-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.5rem 0;
+}
+
+/* === SEÇÕES === */
+.about-section {
+  margin-bottom: 0.5rem;
+}
+
+.about-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.3rem;
+  color: var(--text);
+  margin-bottom: 1.2rem;
+}
+
+.about-text {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+}
+
+/* === LISTA DE ARTISTAS FAVORITOS === */
+.about-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.about-list li {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.4rem 1.1rem;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+/* === RECOMENDAÇÕES === */
+.about-recs {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.about-recs li {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.rec-album {
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.rec-artist {
+  font-size: 0.78rem;
+  color: var(--purple);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.rec-why {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+  line-height: 1.6;
+}
+
+/* === RESPONSIVO === */
+@media (max-width: 640px) {
+  .about-profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-list {
+    justify-content: center;
+  }
+}

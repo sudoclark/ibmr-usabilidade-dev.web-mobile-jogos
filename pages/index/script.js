@@ -4,6 +4,7 @@
 // ===================================================================
 var REVIEWS = [];  // será preenchido pelo fetch do dados.json
 var activeFilter = "todos";  // qual botão de ano está selecionado
+var activeOrder = "padrao";  // qual ordenação está selecionada
 
 
 // ===================================================================
@@ -28,6 +29,8 @@ var mTracks = document.getElementById("m-faixas");
 var mTracksWrap = document.getElementById("m-faixas-wrap");
 var hamburger = document.getElementById("hamburger");
 var mobileMenu = document.getElementById("mobile-menu");
+var btnTema = document.getElementById("btn-tema");
+var selectOrdem = document.getElementById("select-ordem");
 
 
 // ===================================================================
@@ -64,6 +67,15 @@ function renderGrid() {
     }
   }
 
+  // Ordena conforme a opção escolhida no select
+  if (activeOrder === "maior-nota") {
+    lst.sort(function(a, b) { return b.note - a.note; });
+  } else if (activeOrder === "menor-nota") {
+    lst.sort(function(a, b) { return a.note - b.note; });
+  } else if (activeOrder === "az") {
+    lst.sort(function(a, b) { return a.album.localeCompare(b.album); });
+  }
+
   // Atualiza o contador "X álbuns"
   countLabel.textContent = lst.length + " álbuns";
 
@@ -80,11 +92,14 @@ function renderGrid() {
   var html = "";
   for (var i = 0; i < lst.length; i++) {
     var r = lst[i];
+    var badgeDestaque = r.highlight ? '<span class="badge-destaque">⭐ Favorito</span>' : "";
+
     html += `
       <div class="album-card" data-id="${r.id}">
         <div class="album-cover">
           <img src="${r.image}" alt="${r.album}">
           <span class="year-badge">${r.year}</span>
+          ${badgeDestaque}
         </div>
         <div class="album-info">
           <span class="artist">${r.artist}</span>
@@ -244,6 +259,27 @@ function renderSidebar() {
 
 
 // ===================================================================
+// TEMA CLARO / ESCURO
+// Alterna a classe "light" no body. O CSS redefine as variáveis
+// quando essa classe está presente.
+// ===================================================================
+btnTema.addEventListener("click", function() {
+  document.body.classList.toggle("light");
+  btnTema.textContent = document.body.classList.contains("light") ? "🌙" : "☀️";
+});
+
+
+// ===================================================================
+// ORDENAÇÃO
+// Quando o select muda, salva a opção e redesenha o grid.
+// ===================================================================
+selectOrdem.addEventListener("change", function() {
+  activeOrder = this.value;
+  renderGrid();
+});
+
+
+// ===================================================================
 // HAMBURGER (menu mobile)
 // Altera a classe "open" no menu. O CSS usa essa classe para
 // mostrar ou esconder o menu em telas pequenas.
@@ -260,7 +296,7 @@ hamburger.addEventListener("click", function() {
 // Primeiro .then() converte a resposta para JSON.
 // Segundo .then() usa os dados para montar a página.
 // ====================================================
-fetch("data.json")
+fetch("../../data.json")
   .then(function(response) { return response.json(); })
   .then(function(data) {
     REVIEWS = data;

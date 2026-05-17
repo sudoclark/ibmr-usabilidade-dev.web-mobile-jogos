@@ -14,8 +14,9 @@
         <nav>
             <div class="logo">iHeard<span></span></div>
             <ul class="nav-links">
-                <li><a href="#resenhas" class="active">Resenhas</a></li>
-                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="index.html" class="active">Resenhas</a></li>
+                <li><a href="../about/about.html">Sobre mim</a></li>
+                <li><a href="../artists/artists.html">Artistas</a></li>
             </ul>
             <div class="nav-year-btns">
                 <button class="year-btn active" data-year="todos">Todos</button>
@@ -23,13 +24,15 @@
                 <button class="year-btn" data-year="2025">2025</button>
                 <button class="year-btn" data-year="2026">2026</button>
             </div>
+            <button class="theme-btn" id="btn-tema">☀️</button>
             <div class="hamburger" id="hamburger">
                 <span></span><span></span><span></span>
             </div>
         </nav>
         <div class="mobile-menu" id="mobile-menu">
-            <a href="#resenhas">Resenhas</a>
-            <a href="#sobre">Sobre</a>
+            <a href="index.html">Resenhas</a>
+            <a href="../about/about.html">Sobre mim</a>
+            <a href="../artists/artists.html">Artistas</a>
             <div class="mobile-year-btns">
                 <button class="year-btn" data-year="todos">Todos</button>
                 <button class="year-btn" data-year="2024">2024</button>
@@ -57,6 +60,16 @@
             <div class="section-heading">
                 <h2>Resenhas</h2>
                 <span class="count" id="count-label">0 álbuns</span>
+            </div>
+
+            <div class="sort-bar">
+                <label for="select-ordem">Ordenar por:</label>
+                <select id="select-ordem">
+                    <option value="padrao">Padrão</option>
+                    <option value="maior-nota">Maior nota</option>
+                    <option value="menor-nota">Menor nota</option>
+                    <option value="az">A → Z</option>
+                </select>
             </div>
 
             <div class="album-grid" id="grid-resenhas"></div>
