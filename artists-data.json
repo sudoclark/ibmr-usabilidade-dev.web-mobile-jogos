@@ -1,0 +1,117 @@
+[
+  {
+    "id": 1,
+    "name": "João Gomes",
+    "photo": "images/joao-gomes-1.jpg",
+    "genre": "Piseiro",
+    "since": 2021,
+    "curiosities": ["Primeiro cantor de piseiro indicado ao Grammy Latino", "Vencedor do Grammy em 2025 por 'Dominguinho'" ],
+    "albums": ["Eu Tenho A Senha", "Raiz", "De Norte A Sul"]
+  },
+  {
+    "id": 2,
+    "name": "The Neighbourhood",
+    "photo": "images/the_nbhd.jpg",
+    "genre": "Pop/Indie",
+    "since": 2011,
+    "curiosities": [
+      "Quando a banda foi formada, apesar de serem da Califórnia, eles escolheram a grafia britânica da palavra 'Neighbourhood', que inglês seria “Neighborhood”. Esse foi um conselho do próprio empresário da banda, já que, naquela época, já existia uma banda com a grafia norte-americana", 
+      "O vocalista, Jesse Rutherford, também já explorou o mundo da atuação antes de iniciar na paixão pela música",
+      "A banda furou a bolha completamente com o single atemporal 'Sweater Weather'",
+      "O Jesse ficou muito na mídia recentemente por engatar em um relacionamento de alguns meses com a cantora Billie Eilish",
+      "O Jesse também possui muitos projetos alternativos a banda, como seus projetos solo (ele já produziu muitos álbuns sozinho) e a banda Valley Girl, como citado na resenha. É uma banda de hardcore melancólico"
+     ],
+    "albums": ["I Love You", "Wiped Out!", "Hard To Imagine The Neighbourhood Ever Changing"]
+  },
+  {
+    "id": 3,
+    "name": "LANY",
+    "photo": "images/lany-1.jpg",
+    "genre": "Pop",
+    "since": 2014,
+    "curiosities": [
+      "A banda iniciou em 2014 quando o vocalista, Paul, pegou um avião até Nashville para se encontrar com seus amigos Jake Goss e Les Priest. A partir disso eles decidiram formar o trio", 
+      "LANY é um acrônimo para Los Angeles (LA) e Nova York (NY)",
+      "No mês seguinte a formação da banda eles enviaram duas músicas 'Hot Lights' e 'Walk Away' para a conta deles no soundcloud. O Paul já disse em entrevistas que 6 dias depois eles começaram a receber e-mails de gravadoras com interesse nas músicas. Ele nunca soube como elas encontraram as músicas",
+      "A música “13” foi produzida de uma forma quase 'acidental'. Paul revelou que eles simplesmente esqueceram de adicionar o baixo na produção da música, mas a versão com apenas guitarra elétrica e bateria eletrônica acabou criando uma conexão profunda com os fãs",
+      "Antes de formar o LANY, Paul era graduando em música e os dois outros integrantes (Jake e Les) tinham outros projetos focados em Jazz"
+     ],
+    "albums": ["Malibu Nights", "Mama's Boy", "A Beautiful Blur"]
+  },
+  {
+    "id": 4,
+    "name": "Armandinho",
+    "photo": "images/armandinho.jpg",
+    "genre": "Mpb/Reggae",
+    "since": 2001,
+    "curiosities": [
+      "A relação do Armandinho com a música veio muito da sua família. O pai, apesar de terem convivido pouco, tocava MPB no violão e cantava. Sua mãe costumava comprar um disco de MPB e Rock por mês e foi sua grande incentivadora", 
+      "Além de cantar, o Amrdinho sempre gostou muito de Surf, desde os 11 anos. Apesar de morar em Porto Alegre, onde não há praias, ele sempre viaja com a família para praticar o esporte",
+      "A música sempre serviu como terapia para a sua fala, já que ele era muito gago. No colégio, quando tinha que ler um texto, logo começava a gaguejar. Daí toda a turma sempre ria, levando a situação a ficar bem traumática para ele. No entanto, Armandinho descobriu que quando cantava não gaguejava. Então começou a ler os textos cantando e acabou virando uma atração na sala",
+      "A música 'Mexicana' não foi feita para uma mulher, como muitos pensam, mas sim para a sua guitarra mexicana, que o artista havia deixado de tocar durante seu período de dependência química",
+      "O cantor nunca escondeu suas batalhas. Ele assumiu publicamente ser dependente do álcool e da cocaína, mas conseguiu se recuperar plenamente, contando com o apoio de seus fãs"
+     ],
+    "albums": ["Semente", "Casinha", "Volume 5"]
+  },
+  {
+    "id": 5,
+    "name": "Lady Gaga",
+    "photo": "images/lady-gaga.jpg",
+    "genre": "Pop",
+    "since": 2001,
+    "curiosities": [
+      "O nome 'Lady Gaga' foi inspirado na música 'Radio Ga Ga' da banda Queen, sugerido por um ex-produtor da cantora", 
+      "Antes de estourar, ela trabalhou como compositora para artistas consagrados, como Britney Spears e The Pussycat Dolls. Foi o cantor Akon que a descobriu e a contratou para sua gravadora",
+      "O seu megahit de estreia, 'Just Dance', foi escrito por ela em um tempo recorde de apenas 10 minutos",
+      "Ela foi a primeira mulher da história a ganhar o Oscar, o Grammy, o BAFTA e o Globo de Ouro no mesmo ano (2019), graças ao seu trabalho em Nasce uma Estrela",
+      "A artista é uma das maiores colecionadoras de roupas e itens pessoais do Rei do Pop, Michael Jackson",
+      "No início da sua carreira existiam rumores enormes de que a Lady Gaga era uma pessoa intersexo (antigo “hermafrodita”) por supostamente também ter um pênis. E, quando questionada, ela teve a melhor resposta possível sobre o assunto: 'Talvez eu tenha. Isso é tão terrível? Por que diabos eu vou perder o meu tempo explicando se eu tenho ou não um pênis? Meus fãs não se importam, e eu também não'",
+      "Gaga só precisa de mais um prêmio para se tornar EGOT Winner (quem ganha o Emmy, Grammy, Oscar e Tony). Ela só precisa de um Tony Awards para entrar no seleto grupo de 22 artistas com esse título"
+     ],
+    "albums": ["The Fame", "Born This Way", "Artpop", "Joanne", "Chromatica"]
+  },
+  {
+    "id": 6,
+    "name": "Liniker",
+    "photo": "images/liniker.webp",
+    "genre": "Pop/Mpb/R&B",
+    "since": 2014,
+    "curiosities": [
+      "Em 2022, tornou-se a primeira pessoa trans a ganhar o Grammy Latino, na categoria de Melhor Álbum de Música Popular Brasileira com o disco Indigo Borboleta Anil", 
+      "Seu nome de batismo é Liniker de Barros Ferreira Campos. O nome artístico é uma homenagem da mãe, apaixonada por futebol, ao ex-jogador e ídolo inglês Gary Lineker, apenas com a grafia adaptada",
+      "O sucesso de seu segundo álbum de estúdio 'Caju' veio após a artista estar em uma festa e ouvir de uma moça que sua boca parecia um caju, o que a instigou a pesquisar mais sobre a fruta e o conceito do projeto",
+      "Entre seus muitos títulos, ela também assumiu o posto de imortal na Academia Brasileira de Cultura",
+      "Além da música, ela brilha como atriz e ganhou destaque por sua atuação aclamada na série Manhãs de Setembro (disponível no Prime Video)",
+      "A Liniker estourou na internet ainda com o projeto antigo chamado “Liniker e os Caramelows”. Em 2020 decidiu que gostaria de seguir carreira solo e lançou o Indigo Borboleta Anil"
+     ],
+    "albums": ["Goela Abaixo", "Indigo Borboleta Anil"]
+  },
+  {
+    "id": 7,
+    "name": "Harry Styles",
+    "photo": "images/harry.JPG",
+    "genre": "Pop/Soft Rock",
+    "since": 2010,
+    "curiosities": [
+      "Antes da fama mundial, Harry trabalhava em uma padaria na sua cidade natal, Holmes Chapel, na Inglaterra, ganhando cerca de 100 libras por semana", 
+      "Ele não se limitou à música. Harry fez sua estreia como ator no aclamado filme de guerra Dunkirk (2017), dirigido por Christopher Nolan, e também participou de outras produções de Hollywood",
+      "Para compor e buscar inspiração para seu segundo álbum, Fine Line, o artista revelou ter utilizado cogumelos alucinógenos enquanto estava em estúdio",
+      "Ao contrário do que muitas pessoas pensam, o One Direction não foi o primeiro grupo musical de Harry. Antes da boy band aparecer no programa de TV The X Factor, ele integrou o conjunto de rock adolescente White Eskimo"
+     ],
+    "albums": ["Harry Styles", "Fine Line", "Harry's House"]
+  },
+  {
+    "id": 8,
+    "name": "Anavitória",
+    "photo": "images/anavitoria.webp",
+    "genre": "Pop/Mpb",
+    "since": 2013,
+    "curiosities": [
+      "Elas estudaram no mesmo colégio no Tocantins, mas só se aproximaram em 2014 através de uma amiga em comum. Fizeram um vídeo despretensioso cantando juntas e postaram no canal de YouTube da Ana", 
+      "Ambas abandonaram os cursos de graduação (Medicina e Direito) quando a carreira começou a decolar, mudando-se para São Paulo",
+      "A faixa 16 do álbum Claraboia foi batizada de 'Manteiga' em homenagem ao cachorro da casa de Paranapanema onde o projeto foi concebido",
+      "A canção 'spokane' do álbum “Claraboia”, inspirada por vídeos de Spokane, tornou-se trilha sonora não oficial do filme 'Sonhos de Trem'. Isso porque o diretor de fotografia do filme, o brasileiro Adolpho Veloso, é um amigo pessoal da Ana Caetano. Enquanto filmava o longa em Spokane, cidade de Washington, nos EUA, ele mandou alguns vídeos do lugar pra ela. Sobre a reação de Ana, Adolpho conta: 'Ela, olhando aquele vídeo, tocou uma coisa no piano, colocou as duas coisas juntas ali, no momento, e ficou muito bonito. Aí ela me mandou uma mensagem meses depois falando: ‘Olha, eu acho que vai entrar no álbum!’. Então, é quase que uma ‘soundtrack’ não oficial do filme'"
+     ],
+    "albums": ["ANAVITÓRIA", "O Tempo É Agora", "COR"]
+  }
+]

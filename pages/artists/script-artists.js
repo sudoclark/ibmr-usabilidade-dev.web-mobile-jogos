@@ -43,7 +43,7 @@ function renderCarousel() {
           <p class="genre">${a.genre}</p>
           <p class="name">${a.name}</p>
           <p class="since">Desde ${a.since}</p>
-          <p class="preview">${a.curiosities}</p>
+          <p class="preview">${a.curiosities[0]}</p>
         </div>
         <p class="carousel-hint">Clique para saber mais</p>
       </div>
@@ -125,7 +125,11 @@ function openModal(id) {
   mName.textContent = a.name;
   mGenre.textContent = a.genre;
   mSince.textContent = "Desde " + a.since;
-  mCuriosities.textContent = a.curiosities;
+  var curiositiesHtml = "";
+  for (var j = 0; j < a.curiosities.length; j++) {
+    curiositiesHtml += `<li>${a.curiosities[j]}</li>`;
+  }
+  mCuriosities.innerHTML = curiositiesHtml;
 
   // Monta a lista de álbuns famosos
   var albumsHtml = "";
