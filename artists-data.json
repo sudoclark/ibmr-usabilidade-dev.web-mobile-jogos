@@ -113,5 +113,66 @@
       "A canção 'spokane' do álbum “Claraboia”, inspirada por vídeos de Spokane, tornou-se trilha sonora não oficial do filme 'Sonhos de Trem'. Isso porque o diretor de fotografia do filme, o brasileiro Adolpho Veloso, é um amigo pessoal da Ana Caetano. Enquanto filmava o longa em Spokane, cidade de Washington, nos EUA, ele mandou alguns vídeos do lugar pra ela. Sobre a reação de Ana, Adolpho conta: 'Ela, olhando aquele vídeo, tocou uma coisa no piano, colocou as duas coisas juntas ali, no momento, e ficou muito bonito. Aí ela me mandou uma mensagem meses depois falando: ‘Olha, eu acho que vai entrar no álbum!’. Então, é quase que uma ‘soundtrack’ não oficial do filme'"
      ],
     "albums": ["ANAVITÓRIA", "O Tempo É Agora", "COR"]
+  },
+  {
+    "id": 9,
+    "name": "ZAYN",
+    "photo": "images/zayn.webp",
+    "genre": "Pop",
+    "since": 2010,
+    "curiosities": [
+      "Curiosamente, antes de entrar no The X Factor e no One Direction, Zayn nunca havia andado de avião e não tinha passaporte. Além disso, ele revelou que não sabe nadar", 
+      "Seu nome de batismo é Zain Javadd Malik. O 'y' foi adotado anos depois como parte de seu nome artístico",
+      "Além da música, ele é um talentoso artista plástico e desenhista. Ele mesmo chegou a desenhar algumas das imagens presentes no primeiro álbum do One Direction, 'Up All Night'",
+      "Durante as audições do The X Factor em 2010, ele ficou tão nervoso com a rotina de dança que chegou a se esconder nos bastidores. O produtor Simon Cowell teve de convencê-lo a voltar e se apresentar",
+      "Seu grupo de fãs oficial é conhecido mundialmente como Zquad",
+      "Ele possui uma filha chamada Kai, fruto do seu relacionamento de 6 anos com a modelo Gigi Hadid",
+      "Zayn tem origem paquistanesa por parte de pai",
+      "Ele é um cara muito reservado quanto sua vida pessoal. Tem uma fazendo e gosta muito de atividades rurais. Lembro que em uma entrevista há 1 ou 2 anos atrás ele disse que tinha uma galinha de estimação"
+     ],
+    "albums": ["Mind Of Mine", "Icarus Fall", "Nobody Is Listening", "Room Under The Stairs"]
+  },
+  {
+    "id": 10,
+    "name": "Duquesa",
+    "photo": "images/duquesa.jpg",
+    "genre": "Rap",
+    "since": 2015,
+    "curiosities": [
+      "Duquesa é o nome artístico da cantora, compositora e publicitária Jeysa Ribeiro Conceição. Ela é natural de Feira de Santana, Bahia", 
+      "Antes de focar na música, formou-se em Publicidade. Chegou a trabalhar em rádio, onde um chefe a desencorajou de seguir a carreira artística",
+      "Ela é gerenciada pela Boogie Naipe, produtora fundada pelo lendário Mano Brown e sua família"
+     ],
+    "albums": ["Taurus", "Taurus, Vol.2", "SIX."]
+  },
+  {
+    "id": 11,
+    "name": "Anitta",
+    "photo": "images/anitta-2.jpg",
+    "genre": "Pop/Funk/Reggaeton",
+    "since": 2010,
+    "curiosities": [
+      "Entrou duas vezes para o Livro dos Recordes (Guinness World Records). A primeira vez por ser a primeira artista latina a atingir o 1º lugar no Spotify Global com o hit 'Envolver', e depois pela conquista do prêmio de Melhor Artista Latino no VMA", 
+      "O nome artístico é inspirado na personagem principal da minissérie Presença de Anita (2001), da TV Globo, por representar uma mulher sensual, mas ao mesmo tempo menina",
+      "Antes da fama, aos 17 anos, ela chegou a trabalhar como estagiária na área administrativa da mineradora Vale",
+      "O seu primeiro sucesso, 'Show das Poderosas' (2013), foi impulsionado após ela pagar do próprio bolso para gravar o clipe",
+      "A cantora é praticante do Candomblé e sempre foi muito aberta sobre sua espiritualidade e crença nos Orixás"
+     ],
+    "albums": ["Anitta", "Ritmo Perfeito", "Versions of Me", "Funk Generation"]
+  },
+  {
+    "id": 12,
+    "name": "FBC",
+    "photo": "images/fbc.jpg",
+    "genre": "Rap/Hip-Hop",
+    "since": 2006,
+    "curiosities": [
+      "Antes do rap, aos 12 anos, ele tocava bateria na igreja católica e chegou a ter uma banda cover de Nirvana", 
+      "O apelido “padrim” veio da época em que ele ajudou a formar e ensinar vários jovens artistas da cena de BH que explodiram nacionalmente. Ele se via como o 'padrinho' dessa geração, inclusive tendo integrado o antigo e importante coletivo DV Tribo",
+      "Ficou nacionalmente famoso com o álbum Baile (2021), focado no funk oitentista (Miami Bass), e depois lançou obras conceituais como O amor, o perdão e a tecnologia irão nos levar para outro planeta",
+      "Suas músicas costumam funcionar como óperas ou contos urbanos, com personagens bem definidos e críticas sociais profundas",
+      "Conhecido por letras de forte cunho político e protesto social, ele traz vivências reais das periferias de Belo Horizonte para a sua arte"
+     ],
+    "albums": ["S.C.A", "PADRIM", "BEST DUO", "BAILE"]
   }
 ]
