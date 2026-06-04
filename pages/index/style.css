@@ -562,6 +562,9 @@ footer strong {
   border-radius: 18px;
   max-width: 560px;
   width: 100%;
+  max-height: calc(100vh - 2rem);
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
 
@@ -626,8 +629,9 @@ footer strong {
 
 .modal-body {
   padding: 1.5rem 1.8rem;
-  max-height: 540px;
   overflow-y: auto;
+  flex: 1;
+  min-height: 0;
 }
 
 .modal-body h4 {
@@ -679,6 +683,7 @@ footer strong {
   width: 90%;
   margin: 0 auto 1.5rem;
   padding: 0.65rem;
+  flex-shrink: 0;
   background-color: var(--bg-surface);
   color: var(--text-muted);
   font-weight: 600;
