@@ -1,5 +1,5 @@
 // ===================================================================
-// about.js — só o hambúrguer, a página não precisa de mais JS
+// about.js — só o menu hambúrguer
 // ===================================================================
 var hamburger = document.getElementById("hamburger");
 var mobileMenu = document.getElementById("mobile-menu");

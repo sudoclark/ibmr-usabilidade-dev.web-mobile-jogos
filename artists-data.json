@@ -56,7 +56,7 @@
   {
     "id": 5,
     "name": "Lady Gaga",
-    "photo": "images/lady-gaga.jpg",
+    "photo": "images/lady-gaga.JPG",
     "genre": "Pop",
     "since": 2001,
     "curiosities": [
@@ -103,7 +103,7 @@
   {
     "id": 8,
     "name": "Anavitória",
-    "photo": "images/anavitoria.webp",
+    "photo": "images/anavitoria.JPG",
     "genre": "Pop/Mpb",
     "since": 2013,
     "curiosities": [
@@ -117,7 +117,7 @@
   {
     "id": 9,
     "name": "ZAYN",
-    "photo": "images/zayn.webp",
+    "photo": "images/zayn.JPG",
     "genre": "Pop",
     "since": 2010,
     "curiosities": [
@@ -148,7 +148,7 @@
   {
     "id": 11,
     "name": "Anitta",
-    "photo": "images/anitta-2.jpg",
+    "photo": "images/anitta.JPG",
     "genre": "Pop/Funk/Reggaeton",
     "since": 2010,
     "curiosities": [
@@ -174,5 +174,150 @@
       "Conhecido por letras de forte cunho político e protesto social, ele traz vivências reais das periferias de Belo Horizonte para a sua arte"
      ],
     "albums": ["S.C.A", "PADRIM", "BEST DUO", "BAILE"]
+  },
+  {
+    "id": 13,
+    "name": "Marina Sena",
+    "photo": "images/marina-sena.JPG",
+    "genre": "Pop/Mpb",
+    "since": 2014,
+    "curiosities": [
+      "A cantora só teve acesso à internet após completar 15 anos de idade. Segundo ela, esse isolamento digital ajudou a moldar sua originalidade sem sofrer influência excessiva de padrões externos", 
+      "Sua relação com a música começou cedo, com forte incentivo de sua família. Ela tem como grande referência a sonoridade do interior de Minas Gerais e o hábito de sua mãe vender produtos pelo rádio",
+      "Antes de estourar nacionalmente, Marina se inscreveu no reality show musical The Voice Brasil (Rede Globo) aos 17 anos, mas não avançou na competição",
+      "Antes da carreira solo, ela passou por bandas como A Outra Banda da Lua e Rosa Neon, onde ficou conhecida pelo público alternativo com o hit 'Ombrim'"
+     ],
+    "albums": ["De Primeira", "Vício Inerente"]
+  },
+  {
+    "id": 14,
+    "name": "Baiana System",
+    "photo": "images/baiana-system.jpg",
+    "genre": "Samba-Reggae/Afoxé",
+    "since": 2009,
+    "curiosities": [
+      "O nome é a junção perfeita de suas duas maiores influências: Baiana (referência à guitarra baiana, criada na Bahia nos anos 1940) e System (dos sound systems jamaicanos)", 
+      "A emblemática máscara usada em apresentações não é apenas um adereço. Ela funciona como um 'módulo móvel' e um elo com o público, fazendo com que cada pessoa na plateia se sinta parte do sistema que a banda cria",
+      "Em vez de desfilar nos tradicionais e caros camarotes, o grupo comanda o 'Navio Pirata', um trio elétrico independente que arrasta multidões pelas ruas do Carnaval de Salvador resgatando o espírito de rua da folia",
+      "O som do grupo é uma base de 'replantio musical' e afrofuturismo. A ideia principal do vocalista Russo Passapusso é focar em 'um passado que o futuro ainda não alcançou', priorizando ritmos afro-brasileiros e reverenciando mestres como Moraes Moreira"
+     ],
+    "albums": ["Baiana System", "Duas Cidades", "O Futuro Não Demora"]
+  },
+  {
+    "id": 15,
+    "name": "Kehlani",
+    "photo": "images/kehlani.JPG",
+    "genre": "R&B",
+    "since": 2009,
+    "curiosities": [
+      "O nome Kehlani significa 'mar e céu' em havaiano", 
+      "Nascida em Oakland, Califórnia, ela descreve sua etnia como uma mistura de negro, branco, nativo americano e hispânico. Foi criada por sua tia, já que seu pai faleceu quando ela era jovem e sua mãe enfrentava problemas com a justiça",
+      "Antes de brilhar na música, o grande sonho da artista era ser dançarina, mas ela teve que mudar de área após sofrer uma lesão no joelho",
+      "Ela é mãe de Adeya Nomi, nascida em março de 2019. A maternidade trouxe uma grande mudança de perspectiva e paciência ao seu processo de composição"
+     ],
+    "albums": ["Cloud 19", "SweetSexySavage", "While We Wait", "It Was Good Until It Wasn't"]
+  },
+  {
+    "id": 16,
+    "name": "Jota.pê",
+    "photo": "images/jotape.jpg",
+    "genre": "Mpb",
+    "since": 2015,
+    "curiosities": [
+      "A música sempre esteve presente em sua casa. O avô tocava chorinho, a avó cantava na igreja, os tios tocavam vários instrumentos e o pai também cantava", 
+      "Antes de se dedicar à música, ele tentou focar em TI (chegou a trabalhar na IBM) e fez faculdades de Publicidade e Design Digital, mas percebeu que não seria feliz longe dos palcos",
+      "No fim de 2024, ele fez história ao vencer todas as categorias em que estava indicado com o álbum 'Se o Meu Peito Fosse o Mundo', levando 3 estatuetas: Melhor Álbum de MPB, Melhor Canção em Língua Portuguesa e Melhor Álbum de Engenharia de Gravação",
+      "A faixa que lhe rendeu o Grammy de Melhor Canção — Ouro Marrom — quase foi totalmente descartada. Inicialmente, ele estava escrevendo a música tomado pela raiva por causa de uma situação de racismo. Ao fazer uma pausa, viu um post na internet sobre a beleza de criar uma criança negra e apagou 90% da composição. Ele reescreveu a letra com uma mensagem de exaltação e orgulho, mostrando que a vida e a cultura negra vão muito além da dor"
+     ],
+    "albums": ["Crônicas de Um Sonhador", "Dominguinho"]
+  }, 
+  {
+    "id": 17,
+    "name": "Luedji Luna",
+    "photo": "images/luedji.jpg",
+    "genre": "Mpb/Jazz",
+    "since": 2011,
+    "curiosities": [
+      "Nascida em Salvador (BA), Luedji formou-se em Direito pela Universidade do Estado da Bahia (UNEB), mas nunca exerceu a profissão para dedicar-se à música", 
+      "Seus pais se conheceram dentro do movimento negro e de partidos de esquerda. Ela acredita que só nasceu por causa da militância deles",
+      "O nome 'Luedji' é uma homenagem a uma rainha africana da etnia Lunda (do século XVII). Na língua quicongo, significa 'rio', 'lua' e 'amizade'",
+      "O 'Luna' veio na adolescência através de suas leituras sobre wicca e ocultismo. Ela queria se conectar com a ideia de poder feminino e bruxaria",
+      "Luedji é filha de Bessem (um vodun da nação Jejê que corresponde a Oxumaré na nação Ketu)"
+     ],
+    "albums": ["Um Corpo no Mundo", "Bom Mesmo É Estar Debaixo D'água", "Antes Que A Terra Acabe"]
+  },
+  {
+    "id": 18,
+    "name": "Os Garotin",
+    "photo": "images/os-garotin.jpg",
+    "genre": "Jazz/Soul/Mpb",
+    "since": 2019,
+    "curiosities": [
+      "O trio se uniu informalmente em 2019, na festa de aniversário de Cupertino. Eles foram 'descobertos' pela empresária Paula Lavigne, que os incentivou a formar o grupo", 
+      "O projeto se consolidou de vez após eles participarem de encontros musicais na casa de Caetano Veloso",
+      "A musicalidade deles foi fortemente moldada na igreja (onde começaram a cantar), passando por referências como Jorge Ben, Djavan, Tim Maia e R&B americano",
+      "Eles assumem com muito orgulho o termo 'boy band brasileira' e explicam que o formato foi escolhido pela dinâmica em que cada um tem seu momento de brilhar nas músicas"
+     ],
+    "albums": ["Os Garotin de São Gonçalo"]
+  },
+  {
+    "id": 19,
+    "name": "Linkin Park",
+    "photo": "images/linkin-park-2.jpg",
+    "genre": "Metal/Rap Metal",
+    "since": 1996,
+    "curiosities": [
+      "O grupo se chamava inicialmente Xero e, depois, Hybrid Theory. Eles decidiram mudar para Linkin Park em homenagem ao Lincoln Park, localizado em Santa Mônica, Califórnia, onde os integrantes costumavam passar. A grafia foi alterada para 'Linkin' simplesmente porque eles queriam garantir o domínio no site (linkinpark.com) na época", 
+      "O icônico logo circular da banda com seis hastes passou por uma mudança sutil após julho de 2017. Cada haste representava um dos integrantes, e uma delas foi 'removida' em homenagem a Chester Bennington",
+      "Antes de estourarem, eles foram rejeitados por cerca de 44 gravadoras. Eles insistiram e foram contratados pela Warner Bros. graças ao olheiro (A&R) Jeff Blue",
+      "As primeiras demos do grupo eram gravadas no estúdio improvisado dentro do quarto de Mike Shinoda",
+      "A base para a famosa música 'Faint' surgiu de uma inspiração em trilhas sonoras de filmes do agente 007"
+     ],
+    "albums": ["Hybrid Theory", "Meteora", "Minutes to Midnight", "Living Things"]
+  },
+  {
+    "id": 20,
+    "name": "Tyler, The Creator",
+    "photo": "images/tyler-2.jpg",
+    "genre": "Rap",
+    "since": 2007,
+    "curiosities": [
+      "O nome 'Tyler, The Creator' surgiu de sua antiga conta na plataforma MySpace, onde ele costumava postar seus primeiros desenhos e batidas aos 17 anos", 
+      "Ele aprendeu sozinho a tocar piano aos 14 anos e sempre teve uma veia visual forte, chegando a criar capas de discos fictícias desde a infância",
+      "O rapper foi profundamente influenciado pelo trabalho do produtor Pharrell Williams",
+      "Ele ganhou notoriedade no final dos anos 2000 como líder e cofundador do influente coletivo de hip-hop Odd Future (OFWGKTA)",
+      "Tyler é um ícone fashion e fundou a própria marca de streetwear de sucesso, a Golf Wang, conhecida por suas cores vibrantes e estampas excêntricas"
+     ],
+    "albums": ["Goblin", "Wolf", "Flower Boy", "IGOR", "Call Me If You Get Lost"]
+  },
+  {
+    "id": 21,
+    "name": "Gaby Amarantos",
+    "photo": "images/amarantos-2.jpg",
+    "genre": "Tecnobrega/Mpb",
+    "since": 2002,
+    "curiosities": [
+      "Sua relação com a música começou na igreja, cantando em corais católicos na sua cidade natal", 
+      "Antes da carreira solo, fez muito sucesso na cena de aparelhagens de Belém integrando a famosa Banda Tecno Show",
+      "Ganhou o carinhoso apelido de 'Beyoncé do Pará' após fazer uma versão abrasileirada e de enorme sucesso da música Single Ladies",
+      "Seu estilo único serviu como uma das grandes inspirações para a criação da novela Cheias de Charme (2012) da TV Globo, onde emplacou o hit 'Ex Mai Love' na abertura",
+      "Ela foi integrante do programa Saia Justa no GNT e atuou como técnica no The Voice Kids"
+     ],
+    "albums": ["Treme", "Purakê", "TecnoShow"]
+  },
+  {
+    "id": 22,
+    "name": "BK",
+    "photo": "images/bk-2.jpg",
+    "genre": "Rap",
+    "since": 2013,
+    "curiosities": [
+      "Seu nome de batismo, Abebe Bikila, é uma homenagem ao famoso maratonista etíope que venceu duas Olimpíadas correndo descalço", 
+      "Antes de explodir na música, BK' era produtor de vídeos e estudante de cinema. Ele começou a rimar aos 28 anos, mas já escrevia letras desde a adolescência",
+      "O nome 'BK' acompanha o cantor desde os seus 14 anos de idade",
+      "Fã declarado de ícones como Djavan e Seu Jorge, ele é conhecido por samplear clássicos da música brasileira em suas batidas de rap",
+      "Seu álbum Ícaros (2022) não fez sucesso apenas no Brasil, mas também ganhou destaque internacional ao ser premiado no Festival de Cannes"
+     ],
+    "albums": ["Castelos & Ruínas", "O Líder em Movimento", "ICARUS", "Produto do Ambiente"]
   }
 ]

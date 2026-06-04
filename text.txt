@@ -1,8 +1,0 @@
-======================== INFORMAÇÕES ========================
-Aluna: Clara Oliveira Alves Castelo Branco
-Turno/Instituição: IBMR - Botafogo - Noite
-RA: 1262225833
-
-Projeto: Para a avaliação A3, desenvolvi um blog focado em análises de álbuns musicais. Gosto muito de música e de conhecer novos artistas/gêneros, por isso quis fazer um espaço para listar os álbuns que ouvi nos anos de 2024, 2025 e 2026. Além disso, eles contam com uma pequena resenha contando minha opinião sobre o disco.
-
-Link do repositório no Github: https://github.com/sudoclark/ibmr-usabilidade-dev.web-mobile-jogos
