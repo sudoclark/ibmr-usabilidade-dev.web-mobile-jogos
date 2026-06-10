@@ -296,7 +296,7 @@ hamburger.addEventListener("click", function() {
 // Primeiro .then() converte a resposta para JSON.
 // Segundo .then() usa os dados para montar a página.
 // ====================================================
-fetch("../../data.json")
+fetch("data.json")
   .then(function(response) { return response.json(); })
   .then(function(data) {
     REVIEWS = data;
